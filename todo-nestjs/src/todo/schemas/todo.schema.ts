@@ -12,7 +12,7 @@ export class Todo{
     title: string
 
     @Prop()
-    status: "todo"|"done"|"in progress"
+    status: "Todo"|"done"|"in progress"
 }
 
 export const TodoSchema = SchemaFactory.createForClass(Todo)
