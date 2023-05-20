@@ -3,7 +3,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
-import { TodoModule } from './todo/todo.module';
+import { TodoModule } from 'src/modules/todo/todo.module';
+
 
 
 @Module({
